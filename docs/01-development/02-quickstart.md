@@ -19,3 +19,9 @@
 ```
 pvenv/Scripts/activate
 ```
+
+برای رهایی از cors می‌توان کتابخانه corsheaders استفاده کرد اما دقت شود که اگر در برنامه خطایی رخ دهد بجای نمایش خطا پیام ذیل صادر می‌شود:
+
+```
+Access to XMLHttpRequest at 'http://127.0.0.1:8000/api/users' from origin 'http://localhost:4200' has been blocked by CORS policy
+```
