@@ -1,0 +1,23 @@
+html {
+  direction: rtl;
+}
+
+* {
+  font-family: web_Yekan;
+}
+
+strong {
+  font-size: 105%;
+}
+
+p {
+  text-indent: 1.5rem;
+  text-align: justify;
+}
+
+code,
+pre[data-role='codeBlock'],
+pre[data-role='codeBlock'] * {
+  direction: ltr;
+  font-family: Consolas, 'Courier New', monospace;
+}
